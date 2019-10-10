@@ -32,6 +32,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    {src:"~/plugins/vue2-google-maps.js"}
   ],
   /*
   ** Nuxt.js dev-modules
@@ -75,5 +76,6 @@ export default {
     */
     extend(config, ctx) {
     }
-  }
+  },
+  vendor:["vue2-google-maps"]
 }
