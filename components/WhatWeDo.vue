@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<v-flex xs12>
+		<v-flex xs12 my-12>
 			<h1>What we do</h1>
 			<ul>
 				<li>Servicing</li>
