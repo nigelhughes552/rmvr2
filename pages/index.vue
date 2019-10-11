@@ -10,22 +10,19 @@
 				<v-parallax class="mx-n3" height="400" src="engine.jpg"> </v-parallax>
 			</v-col>
 		</v-row>
+		<v-row class="mx-3">
+			<v-col>
+				<WhatWeDo />
+			</v-col>
+		</v-row>
 
-		<v-row>
-			<v-col offset="1">
-				<About />
+		<v-row no-gutters>
+			<v-col>
+				<v-parallax class="mx-n3" height="400" src="car.jpg"> </v-parallax>
 			</v-col>
 		</v-row>
 
 		<v-layout row justify-center>
-			<v-flex xs12> </v-flex>
-
-			<WhatWeDo />
-
-			<v-flex xs12>
-				<v-parallax height="400" src="car.jpg" />
-			</v-flex>
-
 			<FindUs />
 
 			<div data-aos="flip-left" data-aos-duration="2000">
