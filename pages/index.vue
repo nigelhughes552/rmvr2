@@ -16,34 +16,43 @@
 			</v-col>
 		</v-row>
 
-		<v-row no-gutters>
+		<v-row>
 			<v-col>
 				<v-parallax class="mx-n3" height="400" src="car.jpg"> </v-parallax>
 			</v-col>
 		</v-row>
 
-		<v-layout row justify-center>
-			<FindUs />
+		<v-row class="mx-3">
+			<v-col>
+				<FindUs />
+			</v-col>
+		</v-row>
 
-			<div data-aos="flip-left" data-aos-duration="2000">
-				<v-flex xs12>
+		<v-row class="mx-n3">
+			<v-col>
+				<div data-aos="fade-up" data-aos-duration="2000">
 					<a
 						href="https://www.google.com/maps/@51.9577446,-1.2563323,15z"
 						target="_blank"
 						><v-img src="map.jpg"></v-img
 					></a>
-				</v-flex>
-			</div>
+				</div>
+			</v-col>
+		</v-row>
 
-			<Contact />
+		<v-row class="mx-3">
+			<v-col>
+				<Contact />
+			</v-col>
+		</v-row>
 
-			<v-flex xs12>
-				<v-parallax height="400" src="Contact.jpg" />
-			</v-flex>
-		</v-layout>
-		<v-layout column>
-			<Testimonials />
-		</v-layout>
+		<v-row>
+			<v-col>
+				<v-parallax class="mx-n3" height="400" src="Contact.jpg"> </v-parallax>
+			</v-col>
+		</v-row>
+
+		<Testimonials />
 	</div>
 </template>
 
